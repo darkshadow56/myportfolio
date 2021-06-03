@@ -250,7 +250,7 @@ img{
 
 /* ===== SKILLS =====*/
 .skills__container{
-  row-gap: 2rem;
+  row-gap: 1rem;
   text-align: center;
 }
 .skills__subtitle{
@@ -300,11 +300,13 @@ img{
 .skills__react{
   width: 70%;
 }
-.skills__ux{
-  width: 85%;
+.skills__python{
+  width: 70%;
 }
 .skills__img{
+  height: 23rem;
   border-radius: .5rem;
+ margin-top: 5rem;
 }
 
 /* ===== WORK =====*/
