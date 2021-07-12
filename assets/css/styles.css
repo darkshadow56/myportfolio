@@ -321,7 +321,7 @@ img{
   border-radius: .5rem;
   overflow: hidden;
   padding: 20px;
-  width: 17.5rem;
+  /* width: 17.5rem; */
   border: #d6d7d8 solid 2px;
 }
 .work__img img{
@@ -346,10 +346,10 @@ img{
   justify-content: center;
   align-items: center;
   margin-top: 1.2rem;
-  border: grey 2px solid;
+  /* border: grey 2px solid; */
   font-family: inherit;
-  border-radius: .75rem;
-  padding: 0px 11px;
+  /* border-radius: .75rem; */
+  /* padding: 0px 11px; */
 }
 .more-btn{
   margin-top: 2rem;
