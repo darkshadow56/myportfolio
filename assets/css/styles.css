@@ -453,7 +453,12 @@ img{
     right: 10%;
   }
 }
-
+/* @media screen and (max-width: 480px){
+  .home__img{
+    width: 290px;
+    bottom: 15%;
+  }
+} */
 /* animated text styling */
 
 :root {
