@@ -409,6 +409,9 @@ img{
 .footer__title{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 .footer__social{
   margin-bottom: var(--mb-4);
@@ -418,6 +421,7 @@ img{
   color: #fff;
   margin: 0 var(--mb-2)
 }
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
@@ -548,7 +552,6 @@ img{
       steps(var(--typewriterCharacters)) 1s forwards,
     blink 750ms steps(var(--typewriterCharacters)) infinite;
 }
-
 
 
 @keyframes typewriter {
