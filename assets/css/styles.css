@@ -306,8 +306,17 @@ img{
 .skills__img{
   height: 23rem;
   border-radius: .5rem;
- margin-top: 5rem;
+  margin-top: 5rem;
+  /* width: 50rem; */
+  margin-left: 3rem;
 }
+@media(max-width:720px){
+
+  .skills__img{
+    margin-left: -3rem;
+  }
+}
+
 
 /* ===== WORK =====*/
 .work__container{
@@ -345,6 +354,7 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 1.2rem;
   /* border: grey 2px solid; */
   font-family: inherit;
